@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.nav__a{
+    color: var(--text-color)
+}
