@@ -33,7 +33,7 @@ export const StoreProvider = ({ children }) => {
   const updatePrice = (products) => {
     let total = 0;
     products.forEach((product) => {
-      total += product.price;
+      total += Number(product.price);
     });
 
     dispatch({

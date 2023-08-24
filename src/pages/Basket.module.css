@@ -1,0 +1,23 @@
+
+.basket{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 48rem;
+}
+.basket__heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.basket__heading p, .basket__heading h3{
+    
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */;
+}
+

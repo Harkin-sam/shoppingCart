@@ -1,0 +1,46 @@
+.basketProduct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+
+.basketProduct img{
+    width: 10rem;
+}
+
+.basketProduct__item{
+    width: 0.375rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.basketProduct__item p{
+    font-size: 1.25rem; /* 20px  xl*/
+    line-height: 1.75rem; /* 28px */
+}
+.basketProduct__item div{
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    font-weight:500;
+}
+
+
+.basketProduct__button{
+    background-color: #a0aec0;
+    color: white;
+    font-size: 1rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    font-weight: 400; /* medium */
+    border: none;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 3rem;
+}
+
+.basketProduct__button:hover {
+    background-color: #f56565; 
+}

@@ -13,12 +13,12 @@
 }
 
 .product__name{
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.25rem; /* 20px  xl*/
     line-height: 1.75rem; /* 28px */
 }
 
 .product__price{
-    font-size: 1.125rem; /* 18px */
+    font-size: 1.125rem; /* 18px  lg*/
     line-height: 1.75rem; /* 28px */
 }
 
