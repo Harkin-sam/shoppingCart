@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 import { StoreContext } from "../context&reducer/StoreContext";
 
 function Navbar() {
-    const {products} = useContext(StoreContext)
+    const {totalAmount} = useContext(StoreContext)
   return (
     <>
     <div className={style.nav}>
@@ -13,7 +13,7 @@ function Navbar() {
       </Link>
       <Link to="/basket" className={style.nav__a}>
         Basket
-        <span className ={style.notification}>{products.length}</span>
+        <span className ={style.notification}>{totalAmount}</span>
       </Link>
     </div>
 

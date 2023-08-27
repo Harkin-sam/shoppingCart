@@ -21,3 +21,14 @@
     line-height: 1.75rem; /* 28px */;
 }
 
+.basket button{
+    margin: auto;
+    background-color: #f56565; 
+    color: white;
+    font-size: 1rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    font-weight: 400; /* medium */
+    border: none;
+    padding: 0.5rem;
+    border-radius: 30px;
+}

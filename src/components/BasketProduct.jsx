@@ -13,6 +13,7 @@ const BasketProduct = ({ item }) => {
       <img src={item.image} alt={item.name + "glasses"} />
       <div className={style.basketProduct__item}>
         <p>{item.name}</p>
+        <p>{item.amount}</p>
         <div>${Number(item.price).toFixed(2)}</div>
       </div>
       <button className={style.basketProduct__button} onClick={handleRemove}>

@@ -6,7 +6,10 @@ import style from "./Basket.module.css";
 import { StoreContext } from "../context&reducer/StoreContext";
 
 function Basket() {
-  const {products,  total } = useContext(StoreContext);
+  const {products, total, clearCart} = useContext(StoreContext);
+
+  console.log(products, total )
+
   return (
     <div className={style.basket}>
       <Navbar />
@@ -14,10 +17,13 @@ function Basket() {
         <h3>Your basket </h3>
         <p> Total: ${Number(total).toFixed(2)} </p>
       </div>
+        {!products && <div>Basket Empty</div>}
 
-      {products.map((product, i) => {
+      {products && products.map((product, i) => {
         return <BasketProduct key={i} item={product}/>
       })}
+
+      <button onClick={()=>clearCart()}>Clear Cart</button>
     </div>
   );
 }
